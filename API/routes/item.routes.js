@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
 })
 
 router.get('/listar', (req, res) => {
-    res.send('retornando tareas');
+    res.send('retornando proyectores');
 })
 
 router.post('/crear', (req, res) => {
